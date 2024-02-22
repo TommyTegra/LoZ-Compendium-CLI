@@ -136,7 +136,7 @@ def explore_cat(game_ver):
         task_selection(game_ver)
     print(f'{cat_choice}: ')
     name = cat_choice.lower()
-    category = requests.get(f'https://botw-compendium.herokuapp.com/api/v3/compendium/category/{name}')
+    category = requests.get(f'https://botw-compendium.herokuapp.com/api/v3/compendium/category/{name}?game={game_ver[0]}')
     entry = category.json()
     data = entry['data']
     entry_list = []

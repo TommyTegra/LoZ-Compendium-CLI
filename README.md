@@ -5,3 +5,5 @@ The CLI allows users to find compendium entries from either the Breath of the Wi
 
 ## Required Library
 InquirePy, PyFiglet, Requests, Typer, Pillow, and ZeroMQ is required as stated in the requirements.txt.
+
+## To be further updated. 
